@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import Navigation from './Components/Nav';
 import Home from './Pages/Home';
-import Prayer_warriors from './Pages/Prayer_warriors';
+import PrayerWarriors from './Pages/Prayer_warriors';
 import Pavers from './Pages/Pavers';
-import Praise_Worship from './Pages/Praise_worship';
+import PraiseWorship from './Pages/Praise_worship';
 import Evangelism from './Pages/Evangelism';
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
         {/* Define routes for different pages */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/praise-and-worship" element={<Praise_Worship />} />
+          <Route path="/praise-and-worship" element={<PraiseWorship />} />
           <Route path="/evangelism" element={<Evangelism />} />
-          <Route path="/prayer-warriors" element={<Prayer_warriors />} />
+          <Route path="/prayer-warriors" element={<PrayerWarriors />} />
           <Route path="/pavers" element={<Pavers />} />
         </Routes>
       </Router>

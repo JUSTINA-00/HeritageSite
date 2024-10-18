@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Link, Stack, IconButton, useDisclosure, Icons } from '@chakra-ui/react';
+import { Box, Flex, Link, Stack, IconButton, useDisclosure} from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
 const Navigation = () => {
