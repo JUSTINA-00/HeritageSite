@@ -11,9 +11,8 @@ import Evangelism from './Pages/Evangelism';
 function App() {
   return (
     <ChakraProvider>
-      <Router>
+      <Router basename="/">
         <Navigation />
-        {/* Define routes for different pages */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/praise-and-worship" element={<PraiseWorship />} />

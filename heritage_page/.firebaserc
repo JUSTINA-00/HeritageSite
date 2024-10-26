@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "heritage-club-website"
-  }
+    "default": "heritage-club-website",
+    "dev": "heritage-club-website"
+  },
+  "targets": {},
+  "etags": {}
 }
